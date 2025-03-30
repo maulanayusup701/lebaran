@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 import Countdown from "react-countdown";
 
 function App() {
-    const [lebaranMessage, setLebaranMessage] = useState(["مِنَ الْعَائِدِيْن وَالْفَائِزِيْن", "Kalo mau ngasih THR chat aja yaa"]);
+    const [lebaranMessage, setLebaranMessage] = useState(["Kalo mau ngasih THR chat aja yaa","مِنَ الْعَائِدِيْن وَالْفَائِزِيْن"]);
 
     const particleInitialization = async (main) => {
         await loadFireworksPreset(main);
