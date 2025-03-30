@@ -12,7 +12,7 @@ function App() {
     }
 
     const timeLeft = () => {
-        const lebaranDate = new Date("April 10, 2024 08:00:00").getTime();
+        const lebaranDate = new Date("March 31, 2025 08:00:00").getTime();
         const newDate = new Date().getTime();
         const remainingTime = lebaranDate - newDate
         return remainingTime
